@@ -88,7 +88,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
   vendor/htc/pyramid/proprietary/lib/libqdp.so:system/lib/libqdp.so \
   vendor/htc/pyramid/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-  vendor/htc/pyramid/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/vendor-camera.msm8660.so \
+  vendor/htc/pyramid/proprietary/lib/hw/camera.msm8660.so:system/lib/hw/camera.msm8660.so \
   vendor/htc/pyramid/proprietary/lib/hw/sensors.pyramid.so:system/lib/hw/sensors.pyramid.so \
   vendor/htc/pyramid/proprietary/lib/libmllite.so:system/lib/libmllite.so \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
