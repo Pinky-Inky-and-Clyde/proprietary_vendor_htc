@@ -24,17 +24,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/bin/mm-qcamera-app:/system/bin/mm-qcamera-app \
         vendor/htc/m8/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m8/proprietary/bin/mpdecision:/system/bin/mpdecision \
-<<<<<<< HEAD
-        vendor/htc/m8/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
-        vendor/htc/m8/proprietary/bin/qseecomd:/system/bin/qseecomd \
-        vendor/htc/m8/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
-=======
         vendor/htc/m8/proprietary/bin/pnpmgr:/system/bin/pnpmgr \
         vendor/htc/m8/proprietary/bin/ptt_socket_app:/system/bin/ptt_socket_app \
         vendor/htc/m8/proprietary/bin/qseecomd:/system/bin/qseecomd \
         vendor/htc/m8/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
         vendor/htc/m8/proprietary/bin/thermal-engine:/system/bin/thermal-engine \
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/bin/time_daemon:/system/bin/time_daemon \
         vendor/htc/m8/proprietary/blobs/gsm/bin/netmgrd:/system/blobs/gsm/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/gsm/bin/qmuxd:/system/blobs/gsm/bin/qmuxd \
@@ -56,10 +50,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
-<<<<<<< HEAD
-        vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libtime_genoff.so:/system/blobs/gsm/vendor/lib/libtime_genoff.so \
-=======
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/blobs/spr/bin/netmgrd:/system/blobs/spr/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/spr/bin/qmuxd:/system/blobs/spr/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdiag.so:/system/blobs/spr/vendor/lib/libdiag.so \
@@ -81,10 +71,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libqmi.so:/system/blobs/spr/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qc-qmi-1.so:/system/blobs/spr/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/spr/vendor/lib/libril-qcril-hook-oem.so \
-<<<<<<< HEAD
-        vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libtime_genoff.so:/system/blobs/spr/vendor/lib/libtime_genoff.so \
-=======
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/blobs/vzw/bin/netmgrd:/system/blobs/vzw/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/vzw/bin/qmuxd:/system/blobs/vzw/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdiag.so:/system/blobs/vzw/vendor/lib/libdiag.so \
@@ -106,10 +92,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libqmi.so:/system/blobs/vzw/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qc-qmi-1.so:/system/blobs/vzw/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/vzw/vendor/lib/libril-qcril-hook-oem.so \
-<<<<<<< HEAD
-        vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libtime_genoff.so:/system/blobs/vzw/vendor/lib/libtime_genoff.so \
-=======
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/etc/Bluetooth_cal.acdb:/system/etc/Bluetooth_cal.acdb \
         vendor/htc/m8/proprietary/etc/Bluetooth_cal_recovery.acdb:/system/etc/Bluetooth_cal_recovery.acdb \
         vendor/htc/m8/proprietary/etc/cir.img:/system/etc/cir.img \
@@ -147,20 +129,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
         vendor/htc/m8/proprietary/etc/General_cal.acdb:/system/etc/General_cal.acdb \
         vendor/htc/m8/proprietary/etc/Global_cal.acdb:/system/etc/Global_cal.acdb \
-<<<<<<< HEAD
-=======
         vendor/htc/m8/proprietary/etc/gps.conf:/system/etc/gps.conf \
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/etc/Handset_cal.acdb:/system/etc/Handset_cal.acdb \
         vendor/htc/m8/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/m8/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/m8/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m8/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m8/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
-<<<<<<< HEAD
-=======
         vendor/htc/m8/proprietary/etc/pnp.bin:/system/etc/pnp.bin \
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/etc/RT5501:/system/etc/RT5501 \
         vendor/htc/m8/proprietary/etc/sound_mfg_DMIC.txt:/system/etc/sound_mfg_DMIC.txt \
         vendor/htc/m8/proprietary/etc/sound_mfg.txt:/system/etc/sound_mfg.txt \
@@ -219,10 +195,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/m8/proprietary/lib/hw/camera.vendor.msm8974.so:/system/lib/hw/camera.vendor.msm8974.so \
         vendor/htc/m8/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
-<<<<<<< HEAD
-=======
         vendor/htc/m8/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/lib/hw/sensors.msm8974.so:/system/lib/hw/sensors.msm8974.so \
         vendor/htc/m8/proprietary/lib/libalDE_REC.so:/system/lib/libalDE_REC.so \
         vendor/htc/m8/proprietary/lib/libalDE_SDE_TWO.so:/system/lib/libalDE_SDE_TWO.so \
@@ -237,11 +210,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libcamera_awb.so:/system/lib/libcamera_awb.so \
         vendor/htc/m8/proprietary/lib/libcamera_metadata.so:/system/lib/libcamera_metadata.so \
         vendor/htc/m8/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
-<<<<<<< HEAD
-        vendor/htc/m8/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
-        vendor/htc/m8/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
-        vendor/htc/m8/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-=======
         vendor/htc/m8/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/m8/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
         vendor/htc/m8/proprietary/lib/libhtc_depthmap.so:/system/lib/libhtc_depthmap.so \
@@ -249,7 +217,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
         vendor/htc/m8/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
         vendor/htc/m8/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/htc/m8/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m8/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
@@ -339,10 +306,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/m8/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/htc/m8/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
-<<<<<<< HEAD
-=======
         vendor/htc/m8/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
->>>>>>> 7f2e2a0585a659bf7a7046b3ed4353c9aa7427d0
         vendor/htc/m8/proprietary/vendor/lib/libllvm-qcom.so:/system/vendor/lib/libllvm-qcom.so \
         vendor/htc/m8/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
         vendor/htc/m8/proprietary/vendor/lib/libmmcamera2_cpp_module.so:/system/vendor/lib/libmmcamera2_cpp_module.so \
