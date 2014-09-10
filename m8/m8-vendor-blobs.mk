@@ -351,7 +351,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
         vendor/htc/m8/proprietary/vendor/lib/libOpenCL.so:/system/vendor/lib/libOpenCL.so \
         vendor/htc/m8/proprietary/vendor/lib/libOpenVG.so:/system/vendor/lib/libOpenVG.so \
-        vendor/htc/m8/proprietary/vendor/lib/libplayback_adreno.so:/system/vendor/lib/libplayback_adreno.so \
         vendor/htc/m8/proprietary/vendor/lib/libqcgesture.so:/system/vendor/lib/libqcgesture.so \
         vendor/htc/m8/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/m8/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \
