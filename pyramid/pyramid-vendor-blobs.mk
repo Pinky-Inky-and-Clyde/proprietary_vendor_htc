@@ -26,8 +26,10 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
+  vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
+  vendor/htc/pyramid/proprietary/bin/radish:system/bin/radish \
   vendor/htc/pyramid/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/htc/pyramid/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/htc/pyramid/proprietary/bin/thermald:system/bin/thermald \
@@ -100,9 +102,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
   vendor/htc/pyramid/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/pyramid/proprietary/lib/libmpl.so:system/lib/libmpl.so \
-  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
-  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-  vendor/htc/pyramid/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
   vendor/htc/pyramid/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
   vendor/htc/pyramid/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
   vendor/htc/pyramid/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
