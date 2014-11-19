@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/bin/charging:system/bin/charging \
   vendor/htc/pyramid/proprietary/bin/htcbatt:system/bin/htcbatt \
   vendor/htc/pyramid/proprietary/bin/ipd:system/bin/ipd \
-  vendor/htc/pyramid/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/htc/pyramid/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/htc/pyramid/proprietary/bin/netsharing:system/bin/netsharing \
   vendor/htc/pyramid/proprietary/bin/radish:system/bin/radish \
@@ -76,12 +75,14 @@ PRODUCT_COPY_FILES += \
   vendor/htc/pyramid/proprietary/lib/libchromatix_s5k3h1gx_zsl.so:system/lib/libchromatix_s5k3h1gx_zsl.so \
   vendor/htc/pyramid/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
   vendor/htc/pyramid/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+  vendor/htc/pyramid/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-  vendor/htc/pyramid/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
   vendor/htc/pyramid/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
   vendor/htc/pyramid/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+  vendor/htc/pyramid/proprietary/lib/libCB.so:system/lib/libCB.so \
   vendor/htc/pyramid/proprietary/lib/libgsl.so:system/lib/libgsl.so \
   vendor/htc/pyramid/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
   vendor/htc/pyramid/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
