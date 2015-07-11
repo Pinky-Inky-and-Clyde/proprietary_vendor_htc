@@ -51,6 +51,27 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libqmi.so:/system/blobs/gsm/vendor/lib/libqmi.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qc-qmi-1.so:/system/blobs/gsm/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/m8/proprietary/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/gsm/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/m8/proprietary/blobs/dug/bin/netmgrd:/system/blobs/dug/bin/netmgrd \
+        vendor/htc/m8/proprietary/blobs/dug/bin/qmuxd:/system/blobs/dug/bin/qmuxd \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdiag.so:/system/blobs/dug/vendor/lib/libdiag.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdsi_netctrl.so:/system/blobs/dug/vendor/lib/libdsi_netctrl.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdsnetutils.so:/system/blobs/dug/vendor/lib/libdsnetutils.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libdsutils.so:/system/blobs/dug/vendor/lib/libdsutils.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libidl.so:/system/blobs/dug/vendor/lib/libidl.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libnetmgr.so:/system/blobs/dug/vendor/lib/libnetmgr.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqcci_legacy.so:/system/blobs/dug/vendor/lib/libqcci_legacy.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqdi.so:/system/blobs/dug/vendor/lib/libqdi.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqdp.so:/system/blobs/dug/vendor/lib/libqdp.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_cci.so:/system/blobs/dug/vendor/lib/libqmi_cci.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_client_qmux.so:/system/blobs/dug/vendor/lib/libqmi_client_qmux.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_common_so.so:/system/blobs/dug/vendor/lib/libqmi_common_so.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_csi.so:/system/blobs/dug/vendor/lib/libqmi_csi.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_csvt_srvc.so:/system/blobs/dug/vendor/lib/libqmi_csvt_srvc.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi_encdec.so:/system/blobs/dug/vendor/lib/libqmi_encdec.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmiservices.so:/system/blobs/dug/vendor/lib/libqmiservices.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libqmi.so:/system/blobs/dug/vendor/lib/libqmi.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libril-qc-qmi-1.so:/system/blobs/dug/vendor/lib/libril-qc-qmi-1.so \
+        vendor/htc/m8/proprietary/blobs/dug/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/dug/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/m8/proprietary/blobs/spr/bin/netmgrd:/system/blobs/spr/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/spr/bin/qmuxd:/system/blobs/spr/bin/qmuxd \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libdiag.so:/system/blobs/spr/vendor/lib/libdiag.so \
@@ -152,9 +173,9 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895_l.speaker:/system/etc/tfa/tfa9895_l.speaker \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.patch:/system/etc/tfa/tfa9895.patch \
         vendor/htc/m8/proprietary/etc/tfa/tfa9895.speaker:/system/etc/tfa/tfa9895.speaker \
-        vendor/htc/m8/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice.drc \
+        vendor/htc/m8/proprietary/etc/tfa/voice_l.drc:/system/etc/tfa/voice_l.drc \
         vendor/htc/m8/proprietary/etc/tfa/voice.drc:/system/etc/tfa/voice.drc \
-        vendor/htc/m8/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice.eq \
+        vendor/htc/m8/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
         vendor/htc/m8/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
         vendor/htc/m8/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
         vendor/htc/m8/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
