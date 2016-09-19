@@ -150,6 +150,36 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/hiae-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/hiae-common/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b00:system/vendor/firmware/mba.b00 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b01:system/vendor/firmware/mba.b01 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b02:system/vendor/firmware/mba.b02 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b03:system/vendor/firmware/mba.b03 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b04:system/vendor/firmware/mba.b04 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.b05:system/vendor/firmware/mba.b05 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.mbn:system/vendor/firmware/mba.mbn \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/mba.mdt:system/vendor/firmware/mba.mdt \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b00:system/vendor/firmware/modem.b00 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b01:system/vendor/firmware/modem.b01 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b02:system/vendor/firmware/modem.b02 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b04:system/vendor/firmware/modem.b04 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b05:system/vendor/firmware/modem.b05 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b06:system/vendor/firmware/modem.b06 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b07:system/vendor/firmware/modem.b07 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b08:system/vendor/firmware/modem.b08 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b09:system/vendor/firmware/modem.b09 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b10:system/vendor/firmware/modem.b10 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b11:system/vendor/firmware/modem.b11 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b12:system/vendor/firmware/modem.b12 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b13:system/vendor/firmware/modem.b13 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b16:system/vendor/firmware/modem.b16 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b17:system/vendor/firmware/modem.b17 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b18:system/vendor/firmware/modem.b18 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b19:system/vendor/firmware/modem.b19 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.b20:system/vendor/firmware/modem.b20 \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/modem.mdt:system/vendor/firmware/modem.mdt \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/qdsp6m.qdb:system/vendor/firmware/qdsp6m.qdb \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/radiover.cfg:system/vendor/firmware/radiover.cfg \
+    vendor/htc/hiae-common/proprietary/vendor/firmware/version.cfg:system/vendor/firmware/version.cfg \
     vendor/htc/hiae-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -182,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/htc/hiae-common/proprietary/vendor/lib64/libhtc_common.so:system/vendor/lib64/libhtc_common.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libhtcril_db.so:system/vendor/lib64/libhtcril_db.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/htc/hiae-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
@@ -374,7 +405,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
@@ -422,7 +452,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
-    vendor/htc/hiae-common/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
     vendor/htc/hiae-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
